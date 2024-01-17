@@ -1,3 +1,4 @@
+
 const PostPage = () =>{
     return(
         <p>
@@ -5,5 +6,6 @@ const PostPage = () =>{
         </p>
     );
 };
+
 
 export default PostPage;

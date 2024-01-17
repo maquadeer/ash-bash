@@ -9,31 +9,21 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 
-  const header = (
-    <header>
-      <div>
-        <h1>Quadeer Blog</h1>
-        <p>A place I store junk.</p>
-        <br />
-      </div>
-      </header>
-  );
-
-  const footer = (
-    <footer>
-      <div>
-        <h3>Thanks for visiting</h3>
-        <br />
-      </div>
-      </footer>
-  );
-
   return (
     <html>
       <body>
-        {header}
+        <header>
+          <h1>NextJs blog</h1>
+          <p>A place where I store junk.</p>
+          <hr />
+        </header>
+
         {children}
-        {footer}
+
+        <footer>
+            <hr />
+          <h3>Thanks for visiting. </h3>
+        </footer>
       </body>
     </html>
   )
